@@ -31,3 +31,9 @@ body {
      width: 100%;
  }
  
+ @media (max-width: 600px) {
+    /* Styles for small screens */
+    #main-content {
+        padding: 10px;
+    }
+}
