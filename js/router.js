@@ -6,10 +6,11 @@ const route = (event) => {
 };
 
 const routes = {
-404: "/pages/404.html",
+404: "github.io/pages/404.html",
 "/": "/pages/index.html",
-"/Biography": "/pages/biography.html",
-"/Education": "/pages/education.html"
+"/github.io/": "/pages/index.html",
+"/github.io/Biography": "/pages/biography.html",
+"/github.io/Education": "/pages/education.html"
 };
 
 const handleLocation = async () => {
